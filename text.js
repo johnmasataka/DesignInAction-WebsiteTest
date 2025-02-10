@@ -78,7 +78,11 @@ const adjectiveMapping = {
     "long": { "width": 20 },
     "extended": { "width": 20 },
     "short": { "width": 0.25 },
-    "compact": { "width": 0.25 }
+    "compact": { "width": 0.25 },
+    "thin": { "height": 0.1, "width": 5, "depth":0.1 },
+    "low": { "height": 1},
+    "high": { "height": 15},
+    "tall": { "height": 15},
 };
 
 // Mapping table of nouns to parameters

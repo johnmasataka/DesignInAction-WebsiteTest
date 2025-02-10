@@ -8,7 +8,6 @@ import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/cont
 import { parseTextToParameters } from './text.js';
 
 document.getElementById('generate').addEventListener('click', () => {
-    // 获取用户输入
     const userInput = document.getElementById('prompt').value;
     
     // 调用 text.js 的解析函数，生成参数 JSON
