@@ -1,0 +1,33 @@
+{
+  "name": "designinaction-websitetest",
+  "version": "1.0.0",
+  "main": "buildingComponents.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmasataka/DesignInAction-WebsiteTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnmasataka/DesignInAction-WebsiteTest/issues"
+  },
+  "homepage": "https://github.com/johnmasataka/DesignInAction-WebsiteTest#readme",
+  "dependencies": {
+    "compromise": "^14.14.4",
+    "three": "^0.173.0",
+    "your-library-name": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "overrides": {
+    "rxjs": "7.4.0"
+  },
+  "description": ""
+}
