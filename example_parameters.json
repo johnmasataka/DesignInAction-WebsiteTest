@@ -1,0 +1,203 @@
+{
+  "house": {
+    "name": "Japanese Family Home",
+    "style": "Japanese Traditional and Modern Hybrid",
+    "location": {
+      "country": "Japan",
+      "region": "Tokyo Suburbs",
+      "address": "123 Sakura Lane, Tokyo",
+      "coordinates": {
+        "latitude": 35.6895,
+        "longitude": 139.6917
+      }
+    },
+    "dimensions": {
+      "total_area_sqm": 150,
+      "floors": 2,
+      "height_m": 6.5,
+      "footprint_sqm": 80
+    },
+    "components": {
+      "roof": {
+        "type": "Gable roof",
+        "material": "Clay tiles",
+        "color": "Dark grey",
+        "slope_angle_deg": 30,
+        "overhang_m": 0.8
+      },
+      "walls": {
+        "type": "Stucco with wooden accents",
+        "insulation": {
+          "type": "Eco-friendly",
+          "thermal_resistance_r_value": 5.0
+        },
+        "thickness_cm": 30
+      },
+      "windows": {
+        "frame_material": "Wood",
+        "glass_type": "Double-glazed",
+        "u_value": 1.1,
+        "count": 12,
+        "sizes": [
+          { "width_m": 1.5, "height_m": 1.2 },
+          { "width_m": 0.8, "height_m": 0.6 }
+        ]
+      },
+      "doors": [
+        {
+          "type": "Sliding door",
+          "material": "Wood with glass",
+          "width_m": 1.2,
+          "height_m": 2.0
+        },
+        {
+          "type": "Interior Shoji door",
+          "material": "Rice paper and wood",
+          "width_m": 0.8,
+          "height_m": 1.8
+        }
+      ]
+    },
+    "rooms": [
+      {
+        "type": "Living Room",
+        "name": "Main Living Room",
+        "dimensions": {
+          "width_m": 5.0,
+          "length_m": 5.0,
+          "height_m": 2.8
+        },
+        "flooring": {
+          "material": "Hardwood",
+          "thickness_cm": 2.0
+        },
+        "lighting": {
+          "type": "Pendant light",
+          "lumens": 800,
+          "color_temperature_k": 3000
+        },
+        "furniture": [
+          {
+            "type": "Low wooden table",
+            "dimensions": { "width_m": 1.2, "length_m": 0.8, "height_m": 0.4 },
+            "material": "Oak"
+          },
+          {
+            "type": "Zaisu chair",
+            "count": 4,
+            "material": "Fabric and wood"
+          }
+        ],
+        "windows": {
+          "count": 2,
+          "size_m": { "width": 1.5, "height": 1.2 },
+          "orientation": "South"
+        },
+        "decor": ["Ikebana flower arrangement", "Hanging scroll"]
+      },
+      {
+        "type": "Bedroom",
+        "name": "Master Bedroom",
+        "dimensions": {
+          "width_m": 4.5,
+          "length_m": 4.0,
+          "height_m": 2.8
+        },
+        "flooring": {
+          "material": "Tatami mats",
+          "count": 6,
+          "size_sqm_per_mat": 1.62
+        },
+        "windows": {
+          "count": 2,
+          "size_m": { "width": 1.2, "height": 1.0 },
+          "orientation": "East"
+        },
+        "furniture": [
+          {
+            "type": "Futon",
+            "dimensions": { "width_m": 1.8, "length_m": 2.0 },
+            "material": "Cotton and bamboo"
+          },
+          {
+            "type": "Wardrobe",
+            "dimensions": { "width_m": 2.0, "height_m": 2.4, "depth_m": 0.6 },
+            "material": "Wood"
+          }
+        ]
+      },
+      {
+        "type": "Kitchen",
+        "name": "Family Kitchen",
+        "dimensions": {
+          "width_m": 3.0,
+          "length_m": 4.0,
+          "height_m": 2.6
+        },
+        "flooring": {
+          "material": "Ceramic tiles",
+          "thickness_cm": 1.5
+        },
+        "appliances": [
+          {
+            "type": "Gas stove",
+            "brand": "Panasonic",
+            "burners": 4,
+            "energy_efficiency_class": "A"
+          },
+          {
+            "type": "Refrigerator",
+            "brand": "Hitachi",
+            "capacity_liters": 350,
+            "energy_efficiency_class": "A++"
+          },
+          {
+            "type": "Dishwasher",
+            "brand": "Toshiba",
+            "capacity": "14 place settings"
+          }
+        ],
+        "countertops": {
+          "material": "Granite",
+          "length_m": 3.5,
+          "depth_m": 0.6,
+          "height_m": 0.9
+        },
+        "lighting": {
+          "type": "LED strip lighting",
+          "lumens": 1000,
+          "color_temperature_k": 4000
+        }
+      }
+    ],
+    "garden": {
+      "type": "Zen garden",
+      "area_sqm": 20,
+      "elements": [
+        { "type": "Stone lantern", "height_m": 1.0, "material": "Granite" },
+        { "type": "Bonsai tree", "species": "Japanese Black Pine", "age_years": 15 },
+        { "type": "Koi pond", "dimensions": { "width_m": 3.0, "length_m": 2.0, "depth_m": 0.8 } }
+      ]
+    },
+    "energy_efficiency": {
+      "solar_panels": {
+        "installed": true,
+        "capacity_kw": 5.0,
+        "annual_energy_output_kwh": 6000
+      },
+      "insulation": {
+        "wall_r_value": 5.0,
+        "roof_r_value": 7.0
+      },
+      "heating_system": {
+        "type": "Underfloor heating",
+        "energy_source": "Electric",
+        "zones": 4
+      },
+      "ventilation": {
+        "type": "Passive cooling",
+        "cross_ventilation": true
+      }
+    }
+  }
+}

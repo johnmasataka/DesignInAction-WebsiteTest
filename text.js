@@ -74,6 +74,7 @@ const adjectiveMapping = {
     "small": { "height": 0.5, "width": 0.5, "depth":0.5 },
     "tiny": { "height": 0.1, "width": 0.1, "depth":0.1 },
     "medium": { "height": 3 },
+    "medium-sized": { "height": 3 },
     "average": { "height": 3 },
     "long": { "width": 20 },
     "extended": { "width": 20 },

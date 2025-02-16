@@ -1,0 +1,174 @@
+{
+    "house": {
+      "name": "Japanese Family Home",
+      "style": "Japanese Traditional and Modern Hybrid",
+      "location": {
+        "country": "Japan",
+        "region": "Tokyo Suburbs",
+        "address": "123 Sakura Lane, Tokyo"
+      },
+      "dimensions": {
+        "total_area_sqm": 150,
+        "floors": 2
+      },
+      "features": {
+        "exterior": {
+          "roof": "Traditional tiled roof (kawara)",
+          "walls": "White stucco with wooden accents",
+          "garden": {
+            "type": "Zen garden",
+            "elements": ["stone lantern", "bonsai trees", "small koi pond"],
+            "area_sqm": 20
+          },
+          "entrance": {
+            "door": {
+              "type": "Sliding wooden door",
+              "design": "Shoji-style with glass panels"
+            },
+            "genkan": {
+              "size_sqm": 3,
+              "storage": {
+                "shoe_rack": "Built-in with space for 20 pairs of shoes",
+                "umbrella_stand": "Traditional ceramic stand"
+              }
+            }
+          }
+        },
+        "materials": {
+          "flooring": "Tatami mats (bedrooms and tea room), hardwood (living and dining areas)",
+          "walls": "Plaster with wooden frames, Shoji paper sliding doors"
+        }
+      },
+      "rooms": [
+        {
+          "type": "Living Room",
+          "size_sqm": 25,
+          "features": {
+            "flooring": "Hardwood",
+            "windows": "Large glass windows with wooden frames overlooking garden",
+            "furniture": [
+              "Low wooden table",
+              "Zaisu chairs (legless chairs)",
+              "Modern sofa"
+            ],
+            "decor": ["Ikebana flower arrangement", "Hanging scroll (kakemono)"]
+          }
+        },
+        {
+          "type": "Dining Room",
+          "size_sqm": 12,
+          "features": {
+            "flooring": "Hardwood",
+            "table": {
+              "type": "Low dining table",
+              "seating_capacity": 6
+            },
+            "lighting": "Pendant light with a minimalist design",
+            "decor": ["Shoji screens separating kitchen and dining area"]
+          }
+        },
+        {
+          "type": "Kitchen",
+          "size_sqm": 10,
+          "features": {
+            "appliances": ["Gas stove", "Refrigerator", "Dishwasher"],
+            "countertops": "Polished granite",
+            "storage": "Modern cabinets with wooden panels",
+            "layout": "Open-plan, connected to dining area"
+          }
+        },
+        {
+          "type": "Bedroom",
+          "name": "Master Bedroom",
+          "size_sqm": 20,
+          "features": {
+            "flooring": "Tatami mats",
+            "bed": "Futon with storage beneath",
+            "closet": "Sliding wooden doors with ample storage space",
+            "decor": ["Shoji sliding windows", "Low wooden nightstands"]
+          }
+        },
+        {
+          "type": "Bedroom",
+          "name": "Child's Bedroom 1",
+          "size_sqm": 15,
+          "features": {
+            "flooring": "Tatami mats",
+            "furniture": [
+              "Small study desk",
+              "Bookshelf",
+              "Single bed (futon style)"
+            ],
+            "decor": ["Cartoon-themed wall art", "Shoji windows with fabric curtains"]
+          }
+        },
+        {
+          "type": "Bedroom",
+          "name": "Child's Bedroom 2",
+          "size_sqm": 15,
+          "features": {
+            "flooring": "Tatami mats",
+            "furniture": [
+              "Bunk bed",
+              "Toy storage",
+              "Small study desk"
+            ],
+            "decor": ["Animal-themed wall art", "Shoji windows with blackout curtains"]
+          }
+        },
+        {
+          "type": "Bathroom",
+          "size_sqm": 8,
+          "features": {
+            "layout": "Separate toilet and bathing area",
+            "bathtub": "Ofuro-style wooden soaking tub",
+            "shower": "Modern walk-in shower",
+            "sink": "Double vanity with large mirror"
+          }
+        },
+        {
+          "type": "Toilet",
+          "size_sqm": 2,
+          "features": {
+            "toilet": "Modern bidet with heating",
+            "sink": "Compact ceramic sink",
+            "decor": ["Minimalist with a small hanging plant"]
+          }
+        },
+        {
+          "type": "Tea Room (Chashitsu)",
+          "size_sqm": 6,
+          "features": {
+            "flooring": "Tatami mats",
+            "tokonoma": "Recessed alcove for scroll and flower arrangement",
+            "furniture": ["Low tea table", "Zabuton cushions"],
+            "decor": ["Traditional hanging scroll (kakejiku)", "Bamboo utensils"]
+          }
+        }
+      ],
+      "additional_features": {
+        "garage": {
+          "size_sqm": 20,
+          "capacity": "1 car",
+          "storage": ["Tools", "Bicycle rack"]
+        },
+        "laundry_room": {
+          "size_sqm": 5,
+          "appliances": ["Washing machine", "Dryer"],
+          "layout": "Adjacent to the kitchen"
+        },
+        "balcony": {
+          "size_sqm": 8,
+          "access": ["Master Bedroom", "Child's Bedroom 1"],
+          "features": ["Wooden decking", "Small seating area with a potted bonsai"]
+        }
+      },
+      "energy_efficiency": {
+        "solar_panels": true,
+        "insulation": "Eco-friendly insulation materials",
+        "heating_system": "Underfloor heating (modern areas only)",
+        "ventilation": "Passive cooling design with cross-ventilation"
+      }
+    }
+  }
+  
